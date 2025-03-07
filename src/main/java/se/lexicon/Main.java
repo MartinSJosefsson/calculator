@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("My calculator app");
 
-    double num1 = 5, num2= 7, result = 0;
+    double num1 = 15, num2= 6, result = 0;
     char operator = '+';
 
     switch (operator) {
