@@ -10,14 +10,14 @@ public class Main {
         String input = "";
 
         while (true) {
-            System.out.println("Welcome to my calculator app");
-            System.out.println("Enter first value: ");
+            System.out.println("Welcome to my calculator!");
+            System.out.println("Enter first number: ");
             double num1 = scanner.nextDouble();
 
             System.out.println("Enter calculation method (+, -, *, /): ");
             char operator = scanner.next().charAt(0);
 
-            System.out.println("Enter second value: ");
+            System.out.println("Enter second number: ");
             double num2 = scanner.nextDouble();
 
             double result = 0;
@@ -43,7 +43,7 @@ public class Main {
                     }
                     break;
                 default:
-                    System.out.println("Invalid operator! Please use one of the following: +, -, *, /");
+                    System.out.println("Invalid calculation method, use: +, -, *, /");
                     validOperation = false;
                     break;
             }
@@ -54,7 +54,7 @@ public class Main {
                 System.out.println("Result: " + result);
             }
 
-            System.out.println("Do you want to continue? (y/n): ");
+            System.out.println("Would you like to continue? (y/n): ");
             input = scanner.nextLine();
             if(input.equalsIgnoreCase("n")) {
                 System.out.println("Thank you for trying my calculator!");
