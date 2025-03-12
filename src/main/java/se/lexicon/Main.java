@@ -64,24 +64,6 @@ public class Main {
         }
 
 
-    switch (operator) {
-        case '+':
-            result = num1 + num2;
-            break;
-        case '-':
-            result = num1 - num2;
-            break;
-        case '*':
-            result = num1 * num2;
-            break;
-        case '/':
-            result = num1 / num2;
-            break;
-        default:
-            System.out.println(operator + " is not supported");
-    }
-
-
     }
 
 }}
