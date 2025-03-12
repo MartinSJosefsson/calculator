@@ -40,10 +40,7 @@ public class Main {
                         validOperation = false;
                     }
                     break;
-                default:
-                    System.out.println("Invalid calculation method, use: +, -, *, /");
-                    validOperation = false;
-                    break;
+
             }
 
             input = scanner.nextLine();
