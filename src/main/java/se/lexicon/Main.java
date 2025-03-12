@@ -22,8 +22,6 @@ public class Main {
 
             double result = 0;
             boolean validOperation = true;
-
-
             switch (operator) {
                 case '+':
                     result = calculator.add(num1, num2);
