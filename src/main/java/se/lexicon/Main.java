@@ -50,7 +50,6 @@ public class Main {
 
             if (validOperation) {
                 System.out.println("Result: " + result);
-
             }
 
             System.out.println("Would you like to continue? (y/n): ");
